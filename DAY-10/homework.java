@@ -1,6 +1,31 @@
 //1. Write a program to print the given series n , n-6 , n-12 , n-18 ,...... till the value to be printed is greater than Zero(0).
 
-//2. Write a program to print the given series n , n-3k , n-6k , n-9k ,n-12k ,...... till the value to be printed is greater than Zero(0). Where n and k will be given as input.
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        // System.out.println("Hello World!");
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        for(int i=num;i>0;i=i-6){
+            System.out.println(i+ " ");
+        }
+    }
+}
+
+//2. Write a program to print the given series n , n-3k , n-6k , n-9k ,n-12k ,...... till the value to be printed is greater than Zero(0). Where n and k will be given as input
+
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        // System.out.println("Hello World!");
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        int k=sc.nextInt();
+        for(int i=num;i>0;i=i-(3*k)){
+            System.out.println(i+ " ");
+        }
+    }
+}.
 
 //3. Write a program to print Alphabets from (A to Z).
 import java.io.*;
